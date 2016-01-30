@@ -5,7 +5,7 @@
 * npm install
 * ngrok http 3000
 * modifier tous les champs avec url dans le fichier "atlassian-connect.json" par l'url donnée par la commande ngrok
-* AC_LOCAL_BASE_URL=https://<url ngrok>.ngrok.com node app.js
+* AC_LOCAL_BASE_URL=https://"<url ngrok>".ngrok.com node app.js
 * Créer un compte HipChat avec une team 
 * Créer une room 
 * Sélectionner la room 
