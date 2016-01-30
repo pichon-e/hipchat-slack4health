@@ -1,9 +1,14 @@
-# Atlassian Add-on using Express
+# Hipchat Slack4Health
 
-Congratulations! You've successfully created a HipChat Connect Add-on using the Express web application framework.
+## Installation
 
-## What's next?
-
-* [Read the docs](https://bitbucket.org/atlassian/atlassian-connect-express/src/master/README.md#markdown-header-install-dependencies).
-* [Read the HipChat Connect guides](https://developer.atlassian.com/hipchat/guide)
-* [View the HipChat API reference](https://www.hipchat.com/docs/apiv2)
+* npm install
+* ngrok http 3000
+* modifier tous les champs avec url dans le fichier "atlassian-connect.json" par l'url donnée par la commande ngrok
+* AC_LOCAL_BASE_URL=https://<url ngrok>.ngrok.com node app.js
+* Créer un compte HipChat avec une team 
+* Créer une room 
+* Sélectionner la room 
+* Aller dans intégration puis "Install an integration from a descriptor URL"
+* Ajouter l'url ngrok
+* Install
